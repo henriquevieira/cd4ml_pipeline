@@ -1,6 +1,6 @@
 from csv import DictReader
-from cd4ml.filenames import get_problem_files
-from cd4ml.utils.utils import float_or_zero
+from filenames import get_problem_files
+from utils.utils import float_or_zero
 
 
 def stream_raw(problem_name):
@@ -18,7 +18,7 @@ def stream_data(problem_name):
     :param problem_name: name of problem
     :return: stream to processed rows of iris data
     """
-    from cd4ml.problems import read_schema_file
+    from problems import read_schema_file
     from pathlib import Path
     categorical_fields, numeric_fields = read_schema_file(Path(Path(__file__).parent, "raw_schema.json"))
 

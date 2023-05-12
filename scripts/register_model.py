@@ -1,6 +1,6 @@
 import argparse
 
-from cd4ml.register_model import register_model
+from register_model import register_model
 from scripts.common_arg_parsers import get_model_id_location
 
 

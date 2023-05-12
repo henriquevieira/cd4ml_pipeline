@@ -2,7 +2,7 @@
     Keep all filename/path logic here rather than hardcoded paths all over the code
 """
 import os
-from cd4ml.utils.utils import ensure_dir_exists
+from utils.utils import ensure_dir_exists
 
 this_dir = os.path.dirname(__file__)
 root_dir = os.path.realpath(this_dir + "/..")

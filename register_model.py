@@ -3,8 +3,8 @@ import logging
 import os
 import mlflow
 from mlflow import log_param, log_metric, log_artifacts, set_tag
-from cd4ml.filenames import get_model_files
-from cd4ml.utils.utils import get_json
+from filenames import get_model_files
+from utils.utils import get_json
 
 
 def log_model_metrics_file(file_path):

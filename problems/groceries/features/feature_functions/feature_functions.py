@@ -1,4 +1,4 @@
-from cd4ml.utils.utils import float_or_zero
+from utils.utils import float_or_zero
 
 
 def base_record_to_feature(base_feature, lookup, feature):

@@ -1,7 +1,7 @@
 import json
 import logging
 
-from cd4ml.filenames import get_model_files
+from filenames import get_model_files
 
 
 class Track:

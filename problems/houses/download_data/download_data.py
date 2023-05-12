@@ -1,5 +1,5 @@
-from cd4ml.filenames import get_problem_files
-from cd4ml.utils.utils import download_to_file_from_url
+from filenames import get_problem_files
+from utils.utils import download_to_file_from_url
 
 baseUri = "https://raw.githubusercontent.com/alura-cursos/continuous-delivery-for-machine-learning-data/main/"
 

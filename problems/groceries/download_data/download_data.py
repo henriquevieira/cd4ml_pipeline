@@ -1,5 +1,5 @@
-from cd4ml.filenames import get_problem_files
-from cd4ml.utils.utils import download_to_file_from_url, shuffle_csv_file
+from filenames import get_problem_files
+from utils.utils import download_to_file_from_url, shuffle_csv_file
 import zipfile
 from pathlib import Path
 import logging

@@ -1,5 +1,5 @@
 import os
-from cd4ml.filenames import get_model_files
+from filenames import get_model_files
 from wickedhot import OneHotEncoder
 import logging
 logger = logging.getLogger(__name__)

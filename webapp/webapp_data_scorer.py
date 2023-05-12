@@ -1,6 +1,6 @@
 import logging
 
-from cd4ml.utils.utils import float_or_zero
+from utils.utils import float_or_zero
 
 logger = logging.getLogger(__name__)
 

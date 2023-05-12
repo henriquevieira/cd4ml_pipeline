@@ -1,5 +1,5 @@
 from csv import DictReader
-from cd4ml.filenames import get_problem_files
+from filenames import get_problem_files
 
 
 def get_zip_lookup(problem_name):

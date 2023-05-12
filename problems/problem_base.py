@@ -1,15 +1,15 @@
 from time import time
 import numpy as np
-from cd4ml.get_encoder import get_trained_encoder
-from cd4ml.logger.fluentd_logging import FluentdLogger
-from cd4ml.model_tracking import tracking
-from cd4ml.model_tracking.validation_metrics import get_validation_metrics
-from cd4ml.utils.problem_utils import Specification
-from cd4ml.ml_model import MLModel
-from cd4ml.feature_importance import get_feature_importance
-from cd4ml.splitter import splitter
-from cd4ml.model_tracking.validation_plots import get_validation_plot
-from cd4ml.utils.utils import get_uuid
+from get_encoder import get_trained_encoder
+from logger.fluentd_logging import FluentdLogger
+from model_tracking import tracking
+from model_tracking.validation_metrics import get_validation_metrics
+from utils.problem_utils import Specification
+from ml_model import MLModel
+from feature_importance import get_feature_importance
+from splitter import splitter
+from model_tracking.validation_plots import get_validation_plot
+from utils.utils import get_uuid
 from pathlib import Path
 import json
 

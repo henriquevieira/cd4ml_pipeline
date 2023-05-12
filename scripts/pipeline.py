@@ -1,7 +1,7 @@
 import argparse
 
 import logging
-from cd4ml.problems import get_problem, list_available_scenarios
+from problems import get_problem, list_available_scenarios
 
 DEFAULT_ARGUMENT = 'default'
 

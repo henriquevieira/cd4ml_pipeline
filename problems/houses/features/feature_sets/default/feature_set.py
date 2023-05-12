@@ -1,6 +1,6 @@
-from cd4ml.feature_set import FeatureSetBase
-import cd4ml.problems.houses.features.feature_functions.feature_functions as ff
-from cd4ml.utils.feature_utils import get_generic_feature_set, get_feature_params
+from feature_set import FeatureSetBase
+import problems.houses.features.feature_functions.feature_functions as ff
+from utils.feature_utils import get_generic_feature_set, get_feature_params
 
 
 def get_feature_set_params():

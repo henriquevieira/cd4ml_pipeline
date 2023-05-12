@@ -6,9 +6,9 @@ import logging
 import requests
 from flask import Flask, request, render_template
 
-from cd4ml.logger.fluentd_logging import FluentdLogger
-from cd4ml.webapp.model_cache import ModelCache
-from cd4ml.webapp.webapp_data_scorer import get_form_from_model
+from logger.fluentd_logging import FluentdLogger
+from webapp.model_cache import ModelCache
+from webapp.webapp_data_scorer import get_form_from_model
 
 logger = logging.getLogger(__name__)
 fluentd_logger = FluentdLogger()

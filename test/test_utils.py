@@ -1,4 +1,4 @@
-from cd4ml.utils.utils import get_uuid
+from utils.utils import get_uuid
 
 
 def test_uuid_unique():

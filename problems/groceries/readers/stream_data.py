@@ -1,6 +1,6 @@
 from csv import DictReader
 
-from cd4ml.filenames import get_problem_files
+from filenames import get_problem_files
 import logging
 
 logger = logging.getLogger(__name__)
@@ -29,7 +29,7 @@ def stream_raw(problem_name):
 
 
 def stream_data(problem_name, max_rows_to_read=None):
-    # from cd4ml.problems import read_schema_file
+    # from problems import read_schema_file
     # from pathlib import Path
     # categorical_fields, numeric_fields = read_schema_file(Path(Path(__file__).parent, "raw_schema.json"))
 

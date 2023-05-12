@@ -1,9 +1,9 @@
 import argparse
 import logging
 
-from cd4ml.exceptions.ModelNotAcceptedError import ModelNotAcceptedError
-from cd4ml.filenames import get_model_files
-from cd4ml.utils.utils import get_json
+from exceptions.ModelNotAcceptedError import ModelNotAcceptedError
+from filenames import get_model_files
+from utils.utils import get_json
 from scripts.common_arg_parsers import get_model_id_location
 
 

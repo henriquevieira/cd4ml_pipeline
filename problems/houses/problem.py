@@ -1,8 +1,8 @@
-from cd4ml.problems.problem_base import ProblemBase
-from cd4ml.problems.houses.download_data.download_data import download
-import cd4ml.problems.houses.readers.stream_data as stream_data
-import cd4ml.problems.houses.readers.zip_lookup as zip_lookup
-from cd4ml.utils.utils import average_by
+from problems.problem_base import ProblemBase
+from problems.houses.download_data.download_data import download
+import problems.houses.readers.stream_data as stream_data
+import problems.houses.readers.zip_lookup as zip_lookup
+from utils.utils import average_by
 
 
 class Problem(ProblemBase):
@@ -27,10 +27,10 @@ class Problem(ProblemBase):
     @staticmethod
     def get_feature_set_constructor(feature_set_name):
         if feature_set_name == 'default':
-            import cd4ml.problems.houses.features.feature_sets.default.feature_set as default_features
+            import problems.houses.features.feature_sets.default.feature_set as default_features
             return default_features.get_feature_set
         elif feature_set_name == 'simple':
-            import cd4ml.problems.houses.features.feature_sets.simple.feature_set as default_features
+            import problems.houses.features.feature_sets.simple.feature_set as default_features
             return default_features.get_feature_set
         else:
             raise ValueError("Featureset name {} is not valid".format(feature_set_name))

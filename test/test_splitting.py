@@ -1,5 +1,5 @@
 import pytest
-from cd4ml.splitter import splitter, validate_splitting
+from splitter import splitter, validate_splitting
 from copy import deepcopy
 
 ml_pipeline_params_minimal = {

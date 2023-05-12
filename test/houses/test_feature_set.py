@@ -1,6 +1,6 @@
-from cd4ml.problems.houses.features.feature_sets.default.feature_set \
+from problems.houses.features.feature_sets.default.feature_set \
     import FeatureSet as FeatureSetDefault, get_feature_set_params as get_feature_set_params_default
-from cd4ml.problems.houses.features.feature_sets.simple.feature_set \
+from problems.houses.features.feature_sets.simple.feature_set \
     import FeatureSet as FeatureSetSimple, get_feature_set_params as get_feature_set_params_simple
 
 

@@ -2,7 +2,7 @@ import datetime
 import os
 from pathlib import Path
 
-from cd4ml.filenames import get_model_files
+from filenames import get_model_files
 from scripts import acceptance as acceptance_script
 
 

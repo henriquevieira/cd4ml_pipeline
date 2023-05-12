@@ -1,7 +1,7 @@
 import datetime
 import arrow
 
-from cd4ml.utils.memo import memo
+from utils.memo import memo
 
 
 @memo

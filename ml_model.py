@@ -1,10 +1,10 @@
 import joblib
 from wickedhot import OneHotEncoder
-from cd4ml.train import get_trained_model
-from cd4ml.model_utils import get_target_id_features_lists
+from train import get_trained_model
+from model_utils import get_target_id_features_lists
 import logging
-from cd4ml.utils.utils import mini_batch_eval
-from cd4ml.available_models import get_model_type
+from utils.utils import mini_batch_eval
+from available_models import get_model_type
 
 
 class MLModel:

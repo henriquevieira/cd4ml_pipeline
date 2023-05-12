@@ -9,7 +9,7 @@ import pandas as pd
 import pytest
 import requests_mock
 
-from cd4ml.webapp.model_cache import ModelCache
+from webapp.model_cache import ModelCache
 
 
 class TestModelCache:
