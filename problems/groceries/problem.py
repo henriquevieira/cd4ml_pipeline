@@ -1,10 +1,10 @@
-from cd4ml.problems.problem_base import ProblemBase
-import cd4ml.problems.groceries.splitting as splitting
-import cd4ml.problems.groceries.readers.stream_data as data_streamer
-import cd4ml.problems.groceries.download_data.download_data as dd
+from problems.problem_base import ProblemBase
+import problems.groceries.splitting as splitting
+import problems.groceries.readers.stream_data as data_streamer
+import problems.groceries.download_data.download_data as dd
 import logging
 
-from cd4ml.utils.utils import create_lookup
+from utils.utils import create_lookup
 
 
 class Problem(ProblemBase):
@@ -49,10 +49,10 @@ class Problem(ProblemBase):
     @staticmethod
     def get_feature_set_constructor(feature_set_name):
         if feature_set_name == "default":
-            from cd4ml.problems.groceries.features.feature_sets.default import feature_set as fs
+            from problems.groceries.features.feature_sets.default import feature_set as fs
             return fs.get_feature_set
         elif feature_set_name == "original":
-            from cd4ml.problems.groceries.features.feature_sets.original import feature_set as fs
+            from problems.groceries.features.feature_sets.original import feature_set as fs
             return fs.get_feature_set
         else:
             raise ValueError("feature_set_name '{}' is invalid. Please check your groceries configuration"

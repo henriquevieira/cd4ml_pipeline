@@ -1,8 +1,8 @@
 import argparse
 import logging
 
-from cd4ml.filenames import get_model_files
-from cd4ml.utils.problem_utils import get_last_model_subdir
+from filenames import get_model_files
+from utils.problem_utils import get_last_model_subdir
 
 
 def get_model_id_location(model_id_arg):

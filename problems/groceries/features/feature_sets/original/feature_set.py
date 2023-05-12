@@ -1,6 +1,6 @@
-from cd4ml.feature_set import FeatureSetBase
-import cd4ml.problems.groceries.features.feature_functions.feature_functions as ff
-from cd4ml.utils.feature_utils import get_feature_params, get_generic_feature_set
+from feature_set import FeatureSetBase
+import problems.groceries.features.feature_functions.feature_functions as ff
+from utils.feature_utils import get_feature_params, get_generic_feature_set
 
 
 def get_feature_set_params():

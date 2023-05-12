@@ -6,8 +6,8 @@ from pathlib import Path
 
 import mlflow
 import requests
-from cd4ml.model_utils import load_deployed_model_from_local_file
-from cd4ml.problems import list_available_scenarios
+from model_utils import load_deployed_model_from_local_file
+from problems import list_available_scenarios
 
 
 class ModelCache:

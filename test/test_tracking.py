@@ -1,8 +1,8 @@
 import json
 import os
 from tempfile import NamedTemporaryFile
-from cd4ml.model_tracking.tracking import Track
-from cd4ml.filenames import get_model_files
+from model_tracking.tracking import Track
+from filenames import get_model_files
 
 # TODO: might want to pass in temp paths rather than change env variable
 # TODO: that could potentially have side effects on other tests

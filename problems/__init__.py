@@ -1,5 +1,5 @@
 import json
-from cd4ml.problems.available_problems import PROBLEMS
+from problems.available_problems import PROBLEMS
 
 
 def read_schema_file(schema_file):

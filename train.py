@@ -1,5 +1,5 @@
 import logging
-from cd4ml.available_models import get_algorithm_class
+from available_models import get_algorithm_class
 
 logger = logging.getLogger(__name__)
 
