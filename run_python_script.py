@@ -2,7 +2,7 @@ import cProfile
 import sys
 import logging
 
-from cd4ml.logger import cd4ml_logging
+from logger import cd4ml_logging
 
 script_names = ["pipeline", "register_model", "acceptance"]
 
